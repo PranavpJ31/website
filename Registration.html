@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> body{
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNZ6JvVVTuzNd-LwHoIqGTGEp3u9bvPg9dUg&usqp=CAU);
+        background-size:cover;
+        background-repeat:no-repeat ;
+        width: 100%;
+        height: 900px;
+      
+      }
+      .f{
+        border: 2px;
+        text-align: center;
+        box-sizing: border-box;
+      }
+      .container{
+        border-radius: 8px;
+        background-color: rgba(165, 231, 237, 0.667);
+        width: 450px;
+        height: 790px;
+        border: 2px solid black;
+        position: absolute;
+        left: 30%;
+      }
+      .fn{
+        padding: 10px;
+        border-radius: 10px;
+        margin-left: 50px;
+      }
+       
+   .email{
+    padding: 10px ;
+    margin-left: 50px; 
+    border-radius: 10px;
+   }
+    .ep{
+      padding: 10px ;
+      border-radius: 10px;
+      margin-left: 50px;
+    }
+    .pn{
+      padding: 10px px;
+      border-radius: 10px;
+      margin-left: 30px;
+    }
+    .r{
+      padding: 10px 90px;
+      border-radius: 8px;
+    
+    }
+    #g{
+        border-radius: 8px;
+        padding: 10px 20px;
+        margin-left: 30px;
+    }
+    #n{
+      padding: 10px;
+        border-radius: 10px;
+        margin-left: 50px;
+    }
+    .navbar{
+  background-image: url(https://images.pexels.com/photos/11119419/pexels-photo-11119419.jpeg?auto=compress&cs=tinysrgb&w=400);
+  background-color: #ffffff ;
+   /*border-radius: 30px; */
+   background-size:100%;
+   background-repeat:no-repeat ;
+}  
+  .navbar ul{
+    overflow: auto;
+  }
+ .navbar li{
+  float: right;
+  list-style: none;
+ margin: 13px 23px;
+ 
+ }
+ .navbar li a{
+  padding: 3px 3px;
+  text-decoration: none;
+  color: #d900ff;
+ }
+ .navbar li button{
+  border-radius: 40px;
+ background-color: rgb(197, 244, 237);
+ }
+  .navbar input{
+    border: 3px solid black;
+    border-radius: 35px;
+    background: #b9f6ec;
+    padding: 3px ;
+    margin: 10px 0px 0px 2px;
+  }
+
+    </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <ul>
+          <li><button><a href="C:\Users\Administrator\Desktop\medicalwebsite\cont.html">Contact us</a></button></li>
+          <li><button><a href="C:\Users\Administrator\Desktop\medicalwebsite\home.html">Services</a></button></li>
+          <li><button><a href="C:\Users\Administrator\Desktop\medicalwebsite\home.html">About</a></button></li>
+          <li><button><a href="C:\Users\Administrator\Desktop\medicalwebsite\pranav.html">Home</a></button></li>
+          <div>
+            <input type="text" name="search" id="search" placeholder="city,Dr.name">
+          </div>
+      </ul>
+    </nav>
+  </header> 
+    <div class="container">
+        <form action="" method="get" class="f" >
+            
+         <p style="font-size: 50px;">REGISTRATION</p>
+         name:
+         <input type="text" value="your name" class="fn"><br><br><br>
+          Email:
+         <input type="text" value="Email" class="email"><br><br><br>
+         Password:
+         <input type="password" value="Enter Password" class="ep"><br><br><br>
+         Phone Number:
+         <input type="number" value="phoen number" class="pn"><br><br><br>
+         Gender:
+         <select name="gender" id="g">
+          <option value="volvo">Male</option>
+          <option value="saab">Female</option>
+          <option value="mercedes">other</option>
+          
+          </select>
+         <br><br><br>
+         
+         Language:
+         <select name="Language" id="g">
+          <option value="volvo">English</option>
+          <option value="saab">Hindi</option>
+          <option value="mercedes">Marathi</option>
+          
+          </select><br><br><br>
+          <input type="checkbox" class="box">
+         <label for="box"> accept the terms & conditions</label>
+         <br><br><br>
+         Zip code:
+         <input type="number" name="" id="n"> <br><br><br>
+         <input type="submit" value="Register"class="r" >
+        
+        </form>
+       </div>
+</body>
+</html>
